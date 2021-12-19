@@ -13,7 +13,7 @@ https://pytorch.org/get-started/locally/
 In order to use GPU, make sure that your pytorch and cuda versions are compatible.
 Using GPU is adviced.
 
-To set up prerequisites do in bash:
+ - Set up prerequisites do in bash:
 ```bash
 pip install requirements.txt
 ```
