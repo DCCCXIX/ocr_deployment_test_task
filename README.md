@@ -25,5 +25,6 @@ brew install libomp
 ### Usage
 ```bash
 python main.py
+```
 
 This will start a flask api that recieves a base64 coded image and returns recognized texts and bounding boxes' coordinates
