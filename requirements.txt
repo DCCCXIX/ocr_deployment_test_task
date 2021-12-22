@@ -1,0 +1,5 @@
+easyocr==1.4.1
+waitress==2.0.0
+Flask==1.1.2
+torch==1.7.1
+Pillow==8.4.0
