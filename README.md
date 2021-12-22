@@ -34,13 +34,13 @@ For other languages' text recognition list those languages as shown below:
 ```bash
 python main.py --languages ch_sim en ru 
 ```
-If any of listed languages are not supported they'll be defaulted to ru/en.
+If any of listed languages are not supported they'll be reset to ru/en.
 
 Complete list of supported languages can be found here:
 
 https://www.jaided.ai/easyocr/
 
-Script's functionality can be checked be sending a post request with a random picture to localhost on 5000 port.
+Script's functionality can be checked be sending a post request with a random base64 encoded picture to localhost on 5000 port.
 Example:
 ```
 import requests
